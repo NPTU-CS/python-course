@@ -3,11 +3,11 @@ function navItem({ id, link, label, dropDown }) {
         const item = $(`<li class="nav-item dropdown" id="_i${id}"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">${label}</a></li>`);
         const linklist = $('<ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink"></ul>');
         link.forEach(item => {
-            linklist.append(`<li id="nav_list_i${item.id}"><a class="dropdown-item link-primary" href="#" data-link="${item.link}">${item.label}</a></li>`);
+            linklist.append(`<li id="nav_list_i${item.id}"><a class="dropdown-item link-primary" href="#" onclick="itemClick('${item.link}')">${item.label}</a></li>`);
         });
         return item.append(linklist);
     } else {
-        const item = $(`<li class="nav-item" id="nav_i${id}"><a class="nav-link link-primary" href="#" data-link="${link}">${label}</a></li>`);
+        const item = $(`<li class="nav-item" id="nav_i${id}"><a class="nav-link link-primary" href="#">${label}</a></li>`);
         return item;
     }
 }
