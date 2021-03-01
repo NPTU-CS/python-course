@@ -24,7 +24,7 @@
                         $('#nav_ifs').on('click', function (e) {
                             $('body').fullscreen();
                         })
-                        $('nav_iex').on('click', () => window.open($(this).attr('data-link')));
+                        $('#nav_iex').on('click', function () { window.open($(this).children('a').attr('data-link')) });
                     }
                 )
             }
