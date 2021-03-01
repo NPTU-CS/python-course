@@ -1,0 +1,23 @@
+{
+    "name": "python course",
+    "navitems": [
+        {
+            "label": "FullScreen",
+            "id": "fs",
+            "link": "#",
+            "dropDown": false
+        },
+        {
+            "label": "Slide",
+            "id": "slide",
+            "link": [
+                {
+                    "label": "python簡介",
+                    "id": "py-1",
+                    "link": "#"
+                }
+            ],
+            "dropDown": true
+        }
+    ]
+}
