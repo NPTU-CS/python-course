@@ -1,7 +1,7 @@
 function navItem({ id, link, label, dropDown }) {
     if (dropDown) {
         const item = $(`<li class="nav-item dropdown" id="_i${id}"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">${label}</a></li>`);
-        const linklist = $('<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>');
+        const linklist = $('<ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink"></ul>');
         link.forEach(item => {
             linklist.append(`<li id="nav_list_i${item.id}"><a class="dropdown-item link-primary" href="#" data-link="${item.link}">${item.label}</a></li>`);
         });
