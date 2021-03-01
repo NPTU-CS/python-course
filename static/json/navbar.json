@@ -8,6 +8,11 @@
             "dropDown": false
         },
         {
+            "label": "程式範例",
+            "id": "ex",
+            "link": "https://github.com/NPTU-CS/python-course/tree/example"
+        },
+        {
             "label": "Slide",
             "id": "slide",
             "link": [

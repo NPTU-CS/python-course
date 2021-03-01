@@ -7,7 +7,7 @@ function navItem({ id, link, label, dropDown }) {
         });
         return item.append(linklist);
     } else {
-        const item = $(`<li class="nav-item" id="nav_i${id}"><a class="nav-link link-primary" href="#">${label}</a></li>`);
+        const item = $(`<li class="nav-item" id="nav_i${id}"><a class="nav-link link-primary" href="#" data-link="${link}">${label}</a></li>`);
         return item;
     }
 }
