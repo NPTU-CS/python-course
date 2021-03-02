@@ -18,6 +18,11 @@
             "link": [
                 {
                     "label": "python簡介",
+                    "id": "py-0",
+                    "link": "https://hackmd.io/@NPTU-CS/py-0"
+                },
+                {
+                    "label": "變數介紹",
                     "id": "py-1",
                     "link": "https://hackmd.io/@NPTU-CS/py-1"
                 }
