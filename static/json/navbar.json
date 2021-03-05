@@ -8,6 +8,10 @@
             "dropDown": false
         },
         {
+            "label": "課堂講義“,
+            "id": "lecture",
+            "link": "https://hackmd.io/@NPTU-CS/py-lecture"
+        {
             "label": "程式範例",
             "id": "ex",
             "link": "https://github.com/NPTU-CS/python-course/tree/example"
