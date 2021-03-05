@@ -11,6 +11,7 @@
             "label": "課堂講義“,
             "id": "lecture",
             "link": "https://hackmd.io/@NPTU-CS/py-lecture"
+        },
         {
             "label": "程式範例",
             "id": "ex",
