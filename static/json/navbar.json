@@ -30,6 +30,11 @@
                     "label": "判斷式",
                     "id": "py-2",
                     "link": "https://hackmd.io/@NPTU-CS/py-2"
+                },
+                {
+                    "label": "迴圈",
+                    "id": "py-3",
+                    "link": "https://hackmd.io/@NPTU-CS/py-3"
                 }
             ],
             "dropDown": true
