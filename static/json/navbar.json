@@ -22,11 +22,6 @@
             "id": "slide",
             "link": [
                 {
-                    "label": "變數介紹",
-                    "id": "py-1",
-                    "link": "https://hackmd.io/@NPTU-CS/py-1"
-                },
-                {
                     "label": "判斷式",
                     "id": "py-2",
                     "link": "https://hackmd.io/@NPTU-CS/py-2"
